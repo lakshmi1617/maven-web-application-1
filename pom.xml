@@ -24,6 +24,10 @@
 		<sonar.host.url>http://65.2.74.107:9000/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
 		<sonar.password>sonar</sonar.password>  
+		
+		 <sonar.log.level>DEBUG</sonar.log.level>
+                <sonar.verbose>true</sonar.verbose>
+                <sonar.coverage.exclusions>**/*.js</sonar.coverage.exclusions> 
               
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
